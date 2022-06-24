@@ -5,8 +5,8 @@ import logo from "../assets/images/y-logo-white.png";
 export default function Nav() {
   return (
     <>
-      <nav className="bg-footer d:w-full m:w-full text-white">
-        <div className="absolute d:w-[50px] m:w-[25px] mx-5 my-5">
+      <nav className="bg-dropColor d:w-full m:w-full text-white">
+        <div className="absolute d:w-[50px] m:w-[25px] d:mx-[25px] m:mx-[15px] my-5">
           <img className="" src={logo} alt="" />
         </div>
         <div className="absolute mx-[5px] d:top-[150px] m:top-[70px] w-full">
@@ -23,7 +23,7 @@ export default function Nav() {
                 I'll help you to make it happen. Let's Make Contact
               </p>
               <div className="flex justify-center uppercase w-full d:text-[25px] m:text-[12.5px] d:my-[40px] m:my-[20px]">
-                <div className="d:w-[300px] m:w-[150px] d:py-2 m:py-[5px] d:px-2 m:[px-3px] border-white d:border-2 m:border-[1px]">
+                <div className="hover:cursor-pointer hover:font-bold hover:border-dropColor d:w-[300px] m:w-[150px] d:py-2 m:py-[5px] d:px-2 m:[px-3px] border-white d:border-2 m:border-[1px]">
                   let's make contact
                 </div>
               </div>
@@ -31,7 +31,7 @@ export default function Nav() {
           </div>
         </div>
         <div className="opacity-[0.5]">
-          <img className="w-full d:h-[70vh] m:h-[45vh]" src={imgNavbar} alt="" />
+          <img className="w-full d:h-[80vh] m:h-[45vh]" src={imgNavbar} alt="" />
         </div>
       </nav>
     </>

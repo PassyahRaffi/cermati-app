@@ -24,8 +24,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        nav: "#0A5ACF",
-        footer: "#0A043C",
+        dropColor: "#0A043C",
       },
       dropShadow: {
         text: "rgba(0, 0, 0, 0.1)",
@@ -35,7 +34,10 @@ module.exports = {
         // => @media MOBILE - VERSION (min-width:  360px) { ... }
   
         d: "1366px",
-        // => @media DEKSTOP -VERSION (min-width: 1366px) { ... }
+        // => @media DEKSTOP - VERSION (min-width: 1366px) { ... }
+
+        dv: "1920px"
+        // => @media DEVELOPER - VERSION (min-width: 1920px) { ... }
       },
     },
   },
