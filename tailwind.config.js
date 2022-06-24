@@ -33,7 +33,7 @@ module.exports = {
         m: "360px",
         // => @media MOBILE - VERSION (min-width:  360px) { ... }
   
-        d: "1366px",
+        d: "1360px",
         // => @media DEKSTOP - VERSION (min-width: 1366px) { ... }
 
         dv: "1920px"

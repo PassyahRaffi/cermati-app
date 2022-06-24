@@ -24,7 +24,7 @@ export default function Sidebar() {
         </div>
         <div className="flex justify-center d:px-[25px] m:px-[15px] d:py-10 m:py-5 bg-gray-100">
           <div className="grid d:gap-[25px] m:gap-6 d:grid-cols-3 d:grid-rows-2">
-            <div className="px-[15px] py-[20px] border-gray-400 border-[1px] hover:cursor-pointer hover:border-dropColor">
+            <div className="hover:shadow-xl shadow-dropColor px-[15px] py-[20px] border-gray-400 border-[1px] hover:cursor-pointer hover:border-dropColor">
               <div className="flex justify-between">
                 <div className="text-[25px] font-bold">Consult</div>
                 <ImBubbles4 className="w-[40px] h-[30px] text-gray-400 hover:text-dropColor" />
@@ -37,7 +37,7 @@ export default function Sidebar() {
                 revolutionary progress.
               </p>
             </div>
-            <div className="px-[15px] py-[20px] border-gray-400 border-[1px] hover:cursor-pointer hover:border-dropColor">
+            <div className="hover:shadow-xl shadow-dropColor px-[15px] py-[20px] border-gray-400 border-[1px] hover:cursor-pointer hover:border-dropColor">
               <div className="flex justify-between">
                 <div className="text-[25px] font-bold">Design</div>
                 <FaPaintBrush className="w-[40px] h-[30px] text-gray-400 hover:text-dropColor" />
@@ -50,7 +50,7 @@ export default function Sidebar() {
                 ground sustainable.
               </p>
             </div>
-            <div className="px-[15px] py-[20px] border-gray-400 border-[1px] hover:cursor-pointer hover:border-dropColor">
+            <div className="hover:shadow-xl shadow-dropColor px-[15px] py-[20px] border-gray-400 border-[1px] hover:cursor-pointer hover:border-dropColor">
               <div className="flex justify-between">
                 <div className="text-[25px] font-bold">Develop</div>
                 <BsBoxSeam className="w-[40px] h-[30px] text-gray-400 hover:text-dropColor" />
@@ -63,7 +63,7 @@ export default function Sidebar() {
                 thought provoking.
               </p>
             </div>
-            <div className="px-[15px] py-[20px] border-gray-400 border-[1px] hover:cursor-pointer hover:border-dropColor">
+            <div className="hover:shadow-xl shadow-dropColor px-[15px] py-[20px] border-gray-400 border-[1px] hover:cursor-pointer hover:border-dropColor">
               <div className="flex justify-between">
                 <div className="text-[25px] font-bold">Marketing</div>
                 <HiOutlineSpeakerphone className="w-[40px] h-[35px] text-gray-400 hover:text-dropColor" />
@@ -76,7 +76,7 @@ export default function Sidebar() {
                 transparent effective.
               </p>
             </div>
-            <div className="px-[15px] py-[20px] border-gray-400 border-[1px] hover:cursor-pointer hover:border-dropColor">
+            <div className="hover:shadow-xl shadow-dropColor px-[15px] py-[20px] border-gray-400 border-[1px] hover:cursor-pointer hover:border-dropColor">
               <div className="flex justify-between">
                 <div className="text-[25px] font-bold">Manage</div>
                 <MdOutlineManageSearch className="w-[40px] h-[40px] text-gray-400 hover:text-dropColor" />
@@ -89,7 +89,7 @@ export default function Sidebar() {
                 corporate social.
               </p>
             </div>
-            <div className="px-[15px] py-[20px] border-gray-400 border-[1px] hover:cursor-pointer hover:border-dropColor">
+            <div className="hover:shadow-xl shadow-dropColor px-[15px] py-[20px] border-gray-400 border-[1px] hover:cursor-pointer hover:border-dropColor">
               <div className="flex justify-between">
                 <div className="text-[25px] font-bold">Evolve</div>
                 <RiLineChartFill className="w-[40px] h-[35px] text-gray-400 hover:text-dropColor" />
