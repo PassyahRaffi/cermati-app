@@ -12,7 +12,7 @@ export default function Nav() {
             src={logo}
             alt=""
           />
-          <div className="absolute mx-[5px] d:top-[150px] m:top-[80px] w-full">
+          <div className="absolute d:top-[150px] m:top-[80px] w-full">
             <div className="flex justify-center items-center text-center">
               <div className="z-10">
                 <h2 className="d:text-[50px] m:text-[25px] m:px-[10px]">
